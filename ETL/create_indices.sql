@@ -1,9 +1,0 @@
-CREATE INDEX idx_artist_id ON songs (artist_id(255),`release`(255)); 
-CREATE INDEX idx_artist_mbid ON songs (artist_mbid(255),`release`(255)); 
-CREATE INDEX idx_familiarity ON songs (artist_familiarity,artist_hotttnesss); 
-CREATE INDEX idx_hotttnesss ON songs (artist_hotttnesss,artist_familiarity);
-CREATE INDEX idx_artist_name ON songs (artist_name(255),title(255),`release`(255));
-CREATE INDEX idx_title ON songs (title(255),artist_name(255),`release`(255));
-CREATE INDEX idx_duration ON songs (duration,artist_id(255));
-CREATE INDEX idx_year ON songs (year,artist_id(255),title(255));
-CREATE INDEX idx_year2 ON songs (year,artist_name(255));

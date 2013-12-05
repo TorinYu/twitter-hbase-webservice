@@ -1,2 +1,0 @@
-twitter-hbase-webservice
-========================
